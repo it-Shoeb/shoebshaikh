@@ -10,16 +10,27 @@ const Navbar = () => {
             logo
           </Link>
         </div>
-        
+
         <ul className="flex gap-4">
           <li>
-            <Link href={"#about"}>About</Link>
+            <Link className="cursor-pointer" href={"/"}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link href={"Works"}>Works</Link>
+            <Link className="cursor-pointer" href={"/about"}>
+              About
+            </Link>
           </li>
           <li>
-            <Link href={"Services"}>Services</Link>
+            <Link className="cursor-pointer" href={"#works"}>
+              Works
+            </Link>
+          </li>
+          <li>
+            <Link className="cursor-pointer" href={"#services"}>
+              Services
+            </Link>
           </li>
         </ul>
       </nav>
