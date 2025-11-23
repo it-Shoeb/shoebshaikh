@@ -13,7 +13,7 @@ import {
 const SocialLinks = () => {
   return (
     <>
-      <div className="social-links absolute -right-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-4 px-3 py-4 bg-[#ededed99] rounded-tl-xl rounded-bl-xl">
+      <div className="social-links absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col gap-4 px-3 py-4 bg-[#ededed99] rounded-tl-xl rounded-bl-xl z-10">
         <Link href={""}>
           <Image
             className="grayscale-100 hover:grayscale-0 transition-all duration-300"

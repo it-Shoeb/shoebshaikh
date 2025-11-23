@@ -1,13 +1,15 @@
+import { logo } from "@/lib/icons";
+import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
   return (
     <>
       {/* <nav className="flex justify-between sm:w-1/2 w-[80%] fixed bottom-4 left-1/2  transform -translate-x-1/2 bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a]  sm:p-4 p-2 rounded-full"> */}
-      <nav className="flex justify-between sm:w-1/2 w-[80%] fixed bottom-4 left-1/2  transform -translate-x-1/2 bg-[#ededed99] text-[#171717] to-[#0f172a]  sm:p-4 p-2 rounded-full">
+      <nav className="flex justify-between sm:w-1/2 w-[80%] fixed bottom-4 left-1/2  transform -translate-x-1/2 bg-[#ededed99] text-[#171717] to-[#0f172a]  sm:p-4 p-2 rounded-full z-50">
         <div className="">
           <Link href={""} className="">
-            logo
+            <Image src={logo} alt="" width={25} height={25} />
           </Link>
         </div>
 

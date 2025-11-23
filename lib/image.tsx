@@ -1,2 +1,4 @@
 import profilePhoto from "../public/about-image/shoeb-shaikh.png";
-export default profilePhoto;
+import invy from "../public/project-images/invy.png";
+
+export { profilePhoto, invy };
