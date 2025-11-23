@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { unbounded } from "@/lib/fonts";
-import profilePhoto from "@/lib/image";
+import {profilePhoto} from "@/lib/image";
 import Link from "next/link";
 
 const about = () => {
