@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { unbounded } from "@/lib/fonts";
-import {profilePhoto} from "@/lib/image";
+import { profilePhoto } from "@/lib/image";
 import Link from "next/link";
 
 const about = () => {
@@ -22,7 +22,7 @@ const about = () => {
         </div>
       </div>
 
-      <div className="resume flex flex-col gap-2 items-center justify-center w-full">
+      <div className="resume flex flex-col gap-2 items-center justify-center w-full p-6">
         <h1 className={`${unbounded.className} text-[3rem]`}>The Resume</h1>
         <h1 className="sm:text-[2rem] text-2xl p-4 sm:w-1/2 sm:text-center text-justify">
           I have been learnig for the past 5 years with Javascript. I’ve been
@@ -31,8 +31,9 @@ const about = () => {
           the past.
         </h1>
         <Link
-          className="px-8 py-2 border rounded-full transition-all transform hover:-translate-y-1 duration-300 ease-linear"
-          href={""}
+          className="px-8 py-2 border rounded-full animate-bounce"
+          target="_blank"
+          href={"shoeb_shaikh.pdf"}
         >
           Resume
         </Link>

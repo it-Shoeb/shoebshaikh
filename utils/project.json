@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Invy",
+    "description": "A SaaS platform for wholesalers to manage inventory, orders, and customers efficiently.",
+    "image": "/project-images/invy.png",
+    "liveUrl": "https://invy-iywg.onrender.com/",
+    "sourceCode": "https://github.com/it-Shoeb/Wholesaler_Saas"
+  },
+  {
+    "name": "Minor Projets Stack",
+    "description": "Different Different Kinds of Projects Combine in single Project",
+    "image": "/project-images/minor_projets_stack.jpeg",
+    "liveUrl": "https://iqra-aacademy-javascript-projects.vercel.app/",
+    "sourceCode": "https://github.com/it-Shoeb/IqraAacademyJavascriptProjects"
+  }
+]

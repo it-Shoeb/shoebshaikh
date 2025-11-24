@@ -52,7 +52,7 @@ const FooterComponent = () => {
       <hr />
 
       <div className="flex flex-col justify-between items-center gap-4 pb-20 p-4">
-        <div className="logo flex flex-col sm:flex-row justify-between items-center w-full gap-4 p-4">
+        <div className="logo flex flex-col sm:flex-row justify-between items-center gap-4 p-4 w-1/2 sm:w-full">
           <div className="logo">
             {/* <img src={logo} alt="" /> */}
             <Image src={logo} alt="" width={50} height={50} />
@@ -78,10 +78,16 @@ const FooterComponent = () => {
                 <Link href={"https://github.com/it-Shoeb"}>Github</Link>
               </li>
               <li>
-                <Link href={"https://www.linkedin.com/in/shoebshaikh-its/"}>Linkedin</Link>
+                <Link href={"https://www.linkedin.com/in/shoebshaikh-its/"}>
+                  Linkedin
+                </Link>
               </li>
               <li>
-                <Link href={"https://discord.com/channels/@me/1277828475410972756"}>Discord</Link>
+                <Link
+                  href={"https://discord.com/channels/@me/1277828475410972756"}
+                >
+                  Discord
+                </Link>
               </li>
               <li>
                 <Link href={"mailto:shaikhshoebmy@gmail.com"}>Email</Link>
